@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -70,6 +71,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.name == "BlueNpc" && haveKey == true)
         {
             BlueText.SetActive(true);
-        } 
+        }
+
+        if (other.gameObject.name == "exit")
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }
