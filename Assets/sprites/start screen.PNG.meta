@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 464ffc18ae3e70f4c9817bb3ea4ce107
+guid: 7450dfd7517c369448cdd1f6db74f3cd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,91 +115,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: d28eda2e-36f5-40fa-af26-9216155ae11b_0
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 64
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a434f3e7868afdc4fb0e1f2dd73aee16
-      internalID: 1517921156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: d28eda2e-36f5-40fa-af26-9216155ae11b_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 17
-        width: 15
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfa19336c40c4814abbf4a1b7935a78f
-      internalID: -1829706696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: d28eda2e-36f5-40fa-af26-9216155ae11b_2
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 9
-        width: 24
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18403c70fa44f084cbb1f05baecdc391
-      internalID: 1109895972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: d28eda2e-36f5-40fa-af26-9216155ae11b_3
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 8
-        width: 20
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6cb2403774c9624d8255bb8ae8b29b1
-      internalID: -250274977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -210,11 +126,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      d28eda2e-36f5-40fa-af26-9216155ae11b_1: -1829706696
-      d28eda2e-36f5-40fa-af26-9216155ae11b_3: -250274977
-      d28eda2e-36f5-40fa-af26-9216155ae11b_0: 1517921156
-      d28eda2e-36f5-40fa-af26-9216155ae11b_2: 1109895972
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

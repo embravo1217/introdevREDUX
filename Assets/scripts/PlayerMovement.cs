@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         transform.position = newPos;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.name == "Key")
         {
@@ -56,26 +56,31 @@ public class PlayerMovement : MonoBehaviour
             Destroy(other.gameObject);
             OrangeText.SetActive(false);
         }
-        if (other.gameObject.name == "OrangeNpc")
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.name == "OrangeNpc" && haveKey == false && Input.GetKey(KeyCode.Space))
         {
             OrangeText.SetActive(true);
         }
-        if (other.gameObject.name == "OrangeNpc" && haveKey == true)
+        if (other.gameObject.name == "OrangeNpc" && haveKey == true && Input.GetKey(KeyCode.Space))
         {
+            OrangeText.SetActive(false);
             OrangeText2.SetActive(true);
         }
         if (other.gameObject.name == "Door" && haveKey == true)
         {
             Destroy(other.gameObject);
         }
-        if (other.gameObject.name == "BlueNpc" && haveKey == true)
+        if (other.gameObject.name == "BlueNpc" && haveKey == true && Input.GetKey(KeyCode.Space))
         {
             BlueText.SetActive(true);
         }
 
         if (other.gameObject.name == "exit")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(0);
         }
     }
 }
